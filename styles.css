@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F6FC;
+    color: #5C2FDE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto; /* Set height to viewport height */
+}
+
+.side-photo {
+    width: 40%;
+    text-align: center;
+    padding: 20px; /* Add padding to create space around the content */
+    overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+.header {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#side-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+figcaption {
+    font-size: .75em;
+    font-weight: 700;
+}
+
+.body-content {
+    width: 60%;
+    background-color: #5C2FDE;
+    color: #FFFFFF;
+    padding: 20px; /* Add padding to create space around the content */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    text-align: center;
+    align-items: center;
+}
+
+
+.body-content h1 {
+    color: rgb(255, 230, 0);
+}
+
+.body-content h2 {
+    font-style: italic;
+}
+
+.birthday-wishes {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 20px; /* Add margin between birthday wishes */
+}
+
+.content-photo {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.friendly-note {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.friendly-note span {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+.birthday-photos, .birthday-photo {
+    width: 200x;
+    height: 300px;
+}
+
+.birthday-photos {
+    margin-bottom: 30px;
+}
+
+.birthday-photos figcaption {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 32.5%;
+    }
+
+    .photo-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .side-photo {
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    #side-photo {
+        max-width: 70%;
+        height: auto;
+    }
+
+
+    .body-content {
+        width: 100%;
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    .content-photo {
+        width: 100px;
+        height: 180px;
+    }
+
+    .friendly-note {
+        font-size: 0.75em;
+        font-weight: 400;
+    }
+
+    .friendly-note span {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
