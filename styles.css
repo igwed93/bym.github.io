@@ -13,7 +13,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    height: auto; /* Set height to viewport height */
+    height: 100%; /* Set height to viewport height */
 }
 
 .side-photo {
