@@ -31,7 +31,6 @@ body {
 
 #main-photo {
     width: 100%;
-    max-width: 100%;
     height: auto;
     border-radius: 50%;
 }
@@ -134,7 +133,7 @@ figcaption {
     }
 
     #main-photo {
-        max-width: 70%;
+        width: 70%;
         height: auto;
     }
 
