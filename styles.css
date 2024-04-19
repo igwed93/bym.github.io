@@ -18,7 +18,7 @@ body {
 
 .side-photo {
     width: 40%;
-    max-height: 100vh;
+    height: 100vh;
     text-align: center;
     padding: 20px; /* Add padding to create space around the content */
     overflow-y: auto; /* Enable vertical scrollbar */
@@ -42,7 +42,7 @@ figcaption {
 
 .body-content {
     width: 60%;
-    max-height: 100vh;
+    height: 100vh;
     background-color: #5C2FDE;
     color: #FFFFFF;
     padding: 20px; /* Add padding to create space around the content */
