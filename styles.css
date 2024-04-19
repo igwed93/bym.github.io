@@ -127,7 +127,6 @@ figcaption {
     .side-photo {
         display: block;
         width: 100%;
-        height: auto;
         overflow-y: hidden;
     }
 
@@ -140,7 +139,6 @@ figcaption {
     .body-content {
         width: 100%;
         overflow-y: hidden;
-        height: auto;
     }
 
     .content-photo {
